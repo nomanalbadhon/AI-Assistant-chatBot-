@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 class APIs
 {
   // API Key for OpenRouter
-  static String apiKey='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';
+  static String apiKey='';
 
   //free models that we try in this project
   static final List<String> _freeModels=[
