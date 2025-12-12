@@ -1,6 +1,6 @@
 # MAD AI - Your Personal AI Assistant
 
-A versatile AI assistant application built with Flutter that integrates multiple AI functionalities including a ChatBot.This project was developed as part of a university assignment and showcases the use of modern app development techniques and the integration of powerful AI models.
+A versatile AI assistant application built with Flutter that integrates AI functionalities a ChatBot.This project was developed as part of a university assignment and showcases the use of modern app development techniques and the integration of powerful AI models.
 
 ## Features
 
@@ -34,7 +34,43 @@ To get a local copy up and running, follow these simple steps.
 *   **IDE:** An IDE like Android Studio or VS Code with the Flutter plugin.
 *   **A Git client:** To clone the repository.
 
+    
 ### Installation & Running the App
 
 1.  **Open your Terminal/Command Prompt** and clone the repository to your local machine:
     
+    ```sh
+    git clone https://github.com/your_username/mad_ai.git
+    ```
+    *(Replace `your_username` with your actual GitHub username)*
+
+2.  **Navigate into the project directory:**
+    
+    ```sh
+    cd mad_ai
+    ```
+
+3.  **Install all the required dependencies** by running the following command in your terminal:
+    
+    ```sh
+    flutter pub get
+    ```
+
+4.  **Connect a device or start an emulator.** You can check connected devices by running:
+    
+    ```sh
+    flutter devices
+    ```
+
+5.  **Run the application.** This command will build the app and install it on your selected device/emulator:
+    
+    ```sh
+    flutter run
+    ```
+
+After these steps, the app should launch on your device, and you can start exploring its features!
+
+## 📄 License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
